@@ -16,6 +16,7 @@ import { useToast } from './ui/use-toast'
 import { trpc } from '@/app/_trpc/client'
 import { useRouter } from 'next/navigation'
 
+// eslint-disable-next-line react-hooks/exhaustive-deps
 const UploadDropzone = ({
     isSubscribed,
 }: {

@@ -11,6 +11,7 @@ import { Document, Page } from 'react-pdf'
 import { useToast } from './ui/use-toast'
 import { useResizeDetector } from 'react-resize-detector'
 
+// eslint-disable-next-line react-hooks/exhaustive-deps
 interface PdfFullscreenProps {
     fileUrl: string
 }

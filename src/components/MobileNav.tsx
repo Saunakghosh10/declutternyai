@@ -1,5 +1,6 @@
 'use client'
 
+// eslint-disable-next-line react-hooks/exhaustive-deps
 import { ArrowRight, Menu } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
